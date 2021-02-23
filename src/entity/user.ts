@@ -10,4 +10,13 @@ export class user{
 
     @Column()
     lastname: string;
+
+    @Column()
+    empresa: string;
+
+    @Column()
+    salario: number;
+    
+    @Column()
+    posicion: string;
 }
